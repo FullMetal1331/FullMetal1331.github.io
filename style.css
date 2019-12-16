@@ -1,0 +1,36 @@
+body,
+html {
+  width: 100%;
+  height: 100%; 
+  font-family: 'Montserrat', sans-serif;
+}
+
+body{
+	background: url("img/lap.jpg") no-repeat center center fixed;
+	height: 100vh;
+	background-size: cover;
+	color: white;
+}
+
+.row{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.container .txt{
+	margin-top: 32vh;
+	margin-bottom: 28vh;
+}
+
+.container .btn{
+	border-radius: 300px;
+}
+
+.container .btn:hover{
+	background-color: orange;
+	border-color: orange;
+	transition: all 450ms;
+	transform: scale(1.2);
+	cursor: pointer;
+}
